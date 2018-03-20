@@ -1,0 +1,2 @@
+# HibernateMavenExample
+Hibernate Maven Example
