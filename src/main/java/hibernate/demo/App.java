@@ -56,7 +56,7 @@ public class App {
 			}
 
 			// This should return null
-			userId = 100500;
+			userId = -1;
 			newUser = (User)sessionObj.get(User.class, new Integer(userId));
 			if(newUser == null) {
 				System.out.println("No User with such id!");
